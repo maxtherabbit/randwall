@@ -16,6 +16,8 @@ int main(int argc, char *argv[])
     char wallpaper[255];
 
     srand(time(0));
+    _dwSetAppTitle("Wallpaper Randomizer");
+    _dwSetAboutDlg("About Wallpaper Randomizer", "Version 1.0\nby MaxTheRabbit");
 
     if (argc!=2)
     {
